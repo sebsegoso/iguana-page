@@ -1,0 +1,167 @@
+* {
+  color: white;
+  margin: 0;
+  border: 0;
+  padding: 0;
+  font-weight: 300;  
+  text-decoration: none;
+  box-sizing: border-box;  
+}
+
+/* COLORES DE FONDO*/
+body {
+  background-color: #000000;
+  text-align: center;
+  font-family: "Raleway", sans-serif;  
+}
+
+#caracteristicas,
+#footer {
+  background-color: #1e1a13;
+}
+
+/* CABECERA */
+
+#cabecera {
+  width: 100%;
+  height: 73px;
+  padding: 7px;
+}
+
+#cabecera h1 {
+  font-weight: 500;
+  font-size: 50px;
+  vertical-align: middle;
+}
+
+/* HERO IMG*/
+
+#hero-img {
+  width: 100%;
+  height: 727px;
+  background-image: url(../img/bg-header.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}
+
+/* DESCRIPCIÓN */
+
+#descripcion {
+  height: 348px;
+  padding: 45px 150px 66px 150px;
+}
+
+.descripcion-texto-foto {
+  white-space: nowrap;
+  height: 237px;
+  width: 100%;
+}
+
+.texto-descripcion {
+  font-size: 16px;
+  text-align: left;
+  width: 528px;
+  height: 197px;
+  white-space: normal;
+  padding-right: 53px;
+}
+.foto-descripcion {
+  padding-left: 53px;
+  width: 453px;
+  height: 237px;
+}
+
+.texto-descripcion,
+.foto-descripcion {
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* CARACTERÍSTICAS */
+
+#caracteristicas {
+  width: 100%;
+  height: 348px;
+  padding: 75px 270px;
+}
+
+#caracteristicas h2 {
+  font-weight: 500;
+  font-size: 40px;
+}
+
+#caracteristicas h3 {
+  font-size: 24px;
+}
+
+#caracteristicas div {
+  display: inline-block;
+}
+
+#icono {
+  font-size: 54px;
+}
+
+.iconos-con-texto {
+  width: 740px;
+  position: relative;
+  top: 57px;
+}
+
+.tercer-ojo {
+  position: relative;
+  left: -164px;
+}
+
+.cambian-de-color {
+  position: relative;
+  left: 164px;
+}
+
+/* IMÁGENES */
+
+#imagenes {
+  width: 100%;
+  height: 348px;
+  padding: 73px 150px;
+}
+
+.fotos {
+  vertical-align: middle;
+}
+
+.fotos div {
+  width: 316px;
+  height: 202px;
+  background-size: cover;
+  display: inline-block;
+  background-repeat: repeat;
+  background-position: center;
+}
+
+#foto1 {
+  background-image: url(../img/iguana-2.jpg);
+  position: relative;
+  left: -16px;
+}
+
+#foto2 {
+  background-image: url(../img/iguana-3.jpg);
+}
+
+#foto3 {
+  background-image: url(../img/iguana-4.jpg);
+  position: relative;
+  left: 16px;
+}
+
+/* FOOTER */
+
+#footer {
+  width: 100%;
+  height: 102px;
+  font-size: 20px;
+  padding: 40px 0px;
+}
